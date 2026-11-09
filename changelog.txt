@@ -1,0 +1,4 @@
+*** GetYourCash PayByLink Changelog ***
+
+2026-10-01 - version 1.0.0
+* Initial release.

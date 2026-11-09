@@ -1,0 +1,385 @@
+# Copyright (C) 2026 IOHO SRL
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: GetYourCash PayByLink 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/getyourcash-"
+"paybylink\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-09-30T11:22:57+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: getyourcash-paybylink\n"
+
+#. Plugin Name of the plugin
+#: getyourcash-paybylink.php:215
+msgid "GetYourCash PayByLink"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Accept WooCommerce payments through GetYourCash PayByLink, with pre-"
+"authorization, redirect and automatic status synchronization."
+msgstr ""
+
+#. Author of the plugin
+msgid "IOHO SRL"
+msgstr ""
+
+#: getyourcash-paybylink.php:84
+msgid "Settings"
+msgstr ""
+
+#: getyourcash-paybylink.php:152
+msgid "GetYourCash capture failed; order put back on hold."
+msgstr ""
+
+#: getyourcash-paybylink.php:171
+msgid "Capture GetYourCash payment"
+msgstr ""
+
+#: getyourcash-paybylink.php:174
+msgid "Check GetYourCash payment status"
+msgstr ""
+
+#: getyourcash-paybylink.php:206
+msgid ""
+"GetYourCash: the pre-authorization was not captured, so the customer is not "
+"charged. The reserved funds are released according to the card issuer's "
+"rules; contact GetYourCash to release them earlier."
+msgstr ""
+
+#: getyourcash-paybylink.php:216
+msgid ""
+"When you pay with GetYourCash, we send your name, company, billing address, "
+"phone number, email address, customer ID and the order amount to GetYourCash "
+"to process the payment. GetYourCash handles your payment details according "
+"to its own privacy policy."
+msgstr ""
+
+#: includes/class-gyc-pbl-api-client.php:46
+msgid "Incomplete GetYourCash login response."
+msgstr ""
+
+#: includes/class-gyc-pbl-api-client.php:130
+msgid "GetYourCash authentication failed."
+msgstr ""
+
+#: includes/class-gyc-pbl-api-client.php:148
+msgid "GetYourCash API URL is not configured."
+msgstr ""
+
+#. translators: %d: HTTP status code.
+#: includes/class-gyc-pbl-api-client.php:195
+msgid "GetYourCash API error (HTTP %d)"
+msgstr ""
+
+#: includes/class-gyc-pbl-api-client.php:212
+msgid "Invalid JSON response from GetYourCash."
+msgstr ""
+
+#. translators: %s: API base URL.
+#: includes/class-gyc-pbl-api-client.php:228
+msgid ""
+"%s returned a web page instead of an API response: check that it is the "
+"GetYourCash API address."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:25
+msgid ""
+"Take payments through GetYourCash PayByLink in pre-authorization mode, and "
+"capture them from the WooCommerce order screen."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:33 includes/class-gyc-pbl-gateway.php:82
+msgid "Pay securely with GetYourCash."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:37
+msgid "TEST MODE: no real payment will be taken."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:68
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:70
+msgid "Enable GetYourCash PayByLink"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:74
+msgid "Title"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:76
+msgid "Payment method name shown to customers at checkout."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:80
+msgid "Description"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:85
+msgid "Test mode"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:87
+msgid "Use the GetYourCash sandbox"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:88
+msgid ""
+"In test mode, payments go to the sandbox (coretestsecure.getyourcash.eu) "
+"with the sandbox credentials below, and no real money is taken."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:92
+msgid "Live credentials"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:96 includes/class-gyc-pbl-gateway.php:327
+msgid "API username"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:101
+#: includes/class-gyc-pbl-gateway.php:330
+msgid "API password"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:106
+#: includes/class-gyc-pbl-gateway.php:333
+msgid "Merchant Local Branch ID"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:108
+#: includes/class-gyc-pbl-gateway.php:128
+msgid ""
+"Save your credentials to see the list of available branches. Filled in "
+"automatically when your account has only one branch."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:112
+msgid "Sandbox credentials"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:116
+msgid "Sandbox API username"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:121
+msgid "Sandbox API password"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:126
+msgid "Sandbox Merchant Local Branch ID"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:132
+msgid "Payment options"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:136
+msgid "Link validity (minutes)"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:142
+msgid "Payment action"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:144
+msgid ""
+"\"Authorize only\" reserves the funds on the customer's card and puts the "
+"order On hold: the payment is captured when you confirm the order. "
+"\"Authorize and capture\" charges the customer as soon as the payment is "
+"authorized and sets the order to Processing."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:147
+msgid "Authorize only (capture later)"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:148
+msgid "Authorize and capture immediately"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:152
+msgid "Capture on status change"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:154
+msgid "Capture the payment when the order is moved to Processing or Completed"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:155
+msgid ""
+"Applies to \"Authorize only\". If the capture fails, the order is put back "
+"On hold. You can always capture manually with the \"Capture GetYourCash "
+"payment\" order action."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:159
+msgid "Custom PayByLink"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:161
+msgid "Set IsUsingCustomPayByLink = true"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:165
+msgid "RedirectAfterMs"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:167
+msgid ""
+"Delay in milliseconds before GetYourCash redirects the customer back to the "
+"store."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:171
+msgid "Debug log"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:173
+msgid "Log API requests"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:174
+msgid ""
+"Logs are written to WooCommerce > Status > Logs (source \"getyourcash\"). "
+"Credentials and customer data are masked."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:235
+msgid "GetYourCash"
+msgstr ""
+
+#. translators: 1: store currency, 2: supported currencies.
+#: includes/class-gyc-pbl-gateway.php:252
+msgid ""
+"GetYourCash is not shown at checkout because your store currency is %1$s. "
+"Supported currencies: %2$s."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:274
+msgid "sandbox"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:274
+msgid "live"
+msgstr ""
+
+#. translators: 1: environment (live/sandbox), 2: error message.
+#: includes/class-gyc-pbl-gateway.php:280
+msgid "GetYourCash (%1$s): connection test failed. %2$s"
+msgstr ""
+
+#. translators: 1: environment (live/sandbox), 2: list of branches.
+#: includes/class-gyc-pbl-gateway.php:298
+msgid ""
+"GetYourCash (%1$s): connection OK. Available Merchant Local Branch IDs: %2$s"
+msgstr ""
+
+#. translators: %d: branch ID.
+#: includes/class-gyc-pbl-gateway.php:308
+msgid ""
+"GetYourCash: Merchant Local Branch ID set to %d, the only branch on your "
+"account."
+msgstr ""
+
+#. translators: %d: configured branch ID.
+#: includes/class-gyc-pbl-gateway.php:314
+msgid "GetYourCash: Merchant Local Branch ID %d is not one of your branches."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:315
+msgid "GetYourCash: enter one of the Merchant Local Branch IDs listed above."
+msgstr ""
+
+#. translators: %s: comma-separated list of missing settings.
+#: includes/class-gyc-pbl-gateway.php:340
+msgid "GetYourCash configuration is incomplete: %s."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:350
+msgid "Invalid order."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:358
+msgid ""
+"This payment method is temporarily unavailable. Please choose another "
+"payment method or contact us."
+msgstr ""
+
+#. translators: %s: order number.
+#: includes/class-gyc-pbl-gateway.php:379
+msgid "WooCommerce order #%s"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:411
+#: includes/class-gyc-pbl-gateway.php:425
+msgid ""
+"We could not start the GetYourCash payment. Please try again or choose "
+"another payment method."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:424
+msgid "GetYourCash: the response did not contain a paymentLink."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:437
+msgid "Awaiting GetYourCash pre-authorization."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:462
+msgid "Your GetYourCash payment was not completed. Please try again."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:510
+msgid "GetYourCash TransactionId is missing."
+msgstr ""
+
+#. translators: %s: GetYourCash payment status.
+#: includes/class-gyc-pbl-gateway.php:539
+msgid "GetYourCash status: %s."
+msgstr ""
+
+#. translators: %s: GetYourCash payment status.
+#: includes/class-gyc-pbl-gateway.php:539
+msgid "not available"
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:556
+msgid ""
+"Immediate capture failed: the funds are still reserved. Capture the payment "
+"with the \"Capture GetYourCash payment\" order action."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:563
+msgid ""
+"Funds are reserved: move the order to Processing or Completed to capture the "
+"payment."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:598
+msgid "This order has no GetYourCash pre-authorization to capture."
+msgstr ""
+
+#: includes/class-gyc-pbl-gateway.php:604
+msgid ""
+"The order total is higher than the pre-authorized amount. Create a new "
+"payment for the difference."
+msgstr ""
+
+#. translators: %s: error message.
+#: includes/class-gyc-pbl-gateway.php:632
+msgid "GetYourCash capture failed: %s"
+msgstr ""
+
+#. translators: %s: captured amount.
+#: includes/class-gyc-pbl-gateway.php:645
+msgid "GetYourCash payment captured: %s."
+msgstr ""
